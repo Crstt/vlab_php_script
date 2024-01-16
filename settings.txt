@@ -6,5 +6,5 @@ summer_break_start: 31-05
 summer_break_end: 04-07
 fall_break_start: 06-09
 fall_break_end: 12-09
-lab_open_start: 09:55
+lab_open_start: 15:55
 lab_open_end: 19:00

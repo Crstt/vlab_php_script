@@ -64,12 +64,21 @@ function isWithinTimeRange($hour, $minute, $start, $end){
         return ($hour == $startHour && $minute >= $startMinute) || ($hour > $startHour && ($hour < $endHour || ($hour == $endHour && $minute <= $endMinute)));
 }
 
-/*echo "isWinterBreakStart: " . ($isWinterBreakStart ? 'true' : 'false') . "<br>";
+var_dump($H, $i, $w, $d, $m);
+echo "isWinterBreakStart: " . ($isWinterBreakStart ? 'true' : 'false') . "<br>";
 echo "isWinterBreak: " . ($isWinterBreak ? 'true' : 'false') . "<br>";
 echo "isSpringBreak: " . ($isSpringBreak ? 'true' : 'false') . "<br>";
 echo "isSummerBreak: " . ($isSummerBreak ? 'true' : 'false') . "<br>";
 echo "isFallBreak: " . ($isFallBreak ? 'true' : 'false') . "<br>";
-echo "isOpenTime: " . ($isOpenTime ? 'true' : 'false') . "<br>";*/
+echo "isOpenTime: " . ($isOpenTime ? 'true' : 'false') . "<br>";
+if($isWinterBreak){
+        echo "Campus Closed<br>";
+}elseif($isOpenTime){
+        echo "Open Time<br>";
+}else{
+        echo "Lab Closed<br>";
+}
+die();
 
 // Route user to campus closure page if campus is closed
 if($isWinterBreak){
