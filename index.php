@@ -1,6 +1,6 @@
 <?php
 // Program:      Timed Link Redirect
-// Author:       Jeremy Nally
+// Author:       Jeremy Nally, Matteo Catalano
 // Created:      2020-10-16
 // Last Updated: 2022-01-10
 // Purpose:      To direct students to virtual labs within certain time frames
@@ -8,9 +8,9 @@
 //               This version is for the CAE Virtual Lab.
 // 2020-10-19:   Added 5 minute opening before official start time. - JAN
 // 2021-02-03:   Adapted for use with the virtual lab.
+// 2024-01-16:   Complete refactor. Added settings.txt file to store settings. Added ability to change settings via Google Doc. Added redirect screen
 
 // Target URLs
-//$labURL1 = "https://www.google.com/a/ivytech.edu/ServiceLogin?continue=https://script.google.com/a/macros/ivytech.edu/s/AKfycbxVDc93Xy_bb8Btex9Oa8b8wUzg3TnPTrmU3_WVMT3ttKMquKQ-HbhLXA/exec";
 $labURL1 = "https://www.google.com/a/ivytech.edu/ServiceLogin?continue=https://script.google.com/a/macros/ivytech.edu/s/AKfycbzoQHwQlTwLWwSoHo7jF-1V3IfgOKcu_BrWPd-uW21Ru7YwlOr9EEKGIhdvnorYC2ufVQ/exec?id=1";
 $infoURL = "https://sites.google.com/ivytech.edu/cae/drop-in-lab-closed";
 $campusClosureURL = "https://sites.google.com/ivytech.edu/cae/campus-closed-drop-in-lab-closed";
