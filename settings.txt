@@ -1,0 +1,10 @@
+winter_break_start: 24-12
+winter_break_end: 02-01
+spring_break_start: 08-03
+spring_break_end: 14-03
+summer_break_start: 31-05
+summer_break_end: 04-07
+fall_break_start: 06-09
+fall_break_end: 12-09
+lab_open_start: 09:55
+lab_open_end: 19:00
