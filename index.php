@@ -11,7 +11,8 @@
 // 2024-01-16:   Complete refactor. Added settings.txt file to store settings. Added ability to change settings via Google Doc. Added redirect screen
 
 // Target URLs
-$labURL1 = "https://www.google.com/a/ivytech.edu/ServiceLogin?continue=https://script.google.com/a/macros/ivytech.edu/s/AKfycbzoQHwQlTwLWwSoHo7jF-1V3IfgOKcu_BrWPd-uW21Ru7YwlOr9EEKGIhdvnorYC2ufVQ/exec?id=1";
+//$labURL1 = "https://www.google.com/a/ivytech.edu/ServiceLogin?continue=https://script.google.com/a/macros/ivytech.edu/s/AKfycbzoQHwQlTwLWwSoHo7jF-1V3IfgOKcu_BrWPd-uW21Ru7YwlOr9EEKGIhdvnorYC2ufVQ/exec?id=1";
+$labURL1 = "https://script.google.com/a/macros/ivytech.edu/s/AKfycbxMKfhDtmTKK3i4JOP6V56kZKAKGsH2BYmYuxaUF6eYGRfTrFnzQA-1U7kGyXy0zoKvEA/exec";
 $infoURL = "https://sites.google.com/ivytech.edu/cae/drop-in-lab-closed";
 $campusClosureURL = "https://sites.google.com/ivytech.edu/cae/campus-closed-drop-in-lab-closed";
 
