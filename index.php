@@ -142,7 +142,7 @@ echo <<<HEREDOC
         </header>
         
         <div style="height: 10vh;font-size: 30px;display: flex;justify-content: center;">
-                <p>You are being redirected...</p>
+                <p>Please give us just a moment while we load your Ivy Tech course information.</p>
         </div>
         
         <div class="spinner"></div>
