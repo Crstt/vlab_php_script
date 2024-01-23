@@ -1,0 +1,226 @@
+/* Author: Jeremy Nally Date Written: December 16, 2020 File: stylesheet.html Description: CSS file for CAE Lab Sign In Last Modified: January 19, 2021 */
+ body {
+     font: 1em Calibri,Helvetica,sanserif;
+     background: #26684d;
+}
+ #reasonDiv {
+     display: none;
+}
+ #studentDiv {
+     display: block;
+}
+ h1 {
+     margin-top: 10px;
+     margin-bottom: 5px;
+     font: 2em Calibri,Helvetica,sanserif;
+}
+ h2 {
+     font: 1.5em Calibri,Helvetica,sanserif;
+     margin-top: 10px;
+     margin-bottom: 5px;
+}
+ h3 {
+     font-size: 0.95em;
+}
+ #title h1, #title h2, #title a {
+     margin: 0;
+     padding: 0;
+     color: white;
+     text-decoration: none;
+     text-shadow: -1px -1px 0 #26684d, 1px -1px 0 #26684d, -1px 1px 0 #26684d, 1px 1px 0 #26684d;
+}
+ #errorMsg {
+     display: none;
+}
+ p,li {
+     font: 1em Calibri,Helvetica,sanserif;
+     padding: 5px;
+}
+ ul {
+     list-style-type: none;
+}
+ footer {
+     font: 0.8em Calibri, Helvetica, sanserif;
+     margin-top: 20px;
+     font-style: italic;
+     text-align: center;
+}
+ table {
+     width: 660px;
+     border: none;
+     margin: 0;
+}
+ table input {
+     width: 100px;
+}
+ table button {
+     width: 60px;
+}
+ td {
+    /*border: 1px solid rgb(0,0,170);
+    */
+}
+ th {
+     font-size: 0.93em;
+     text-align: left;
+     vertical-align: bottom;
+}
+ form {
+     margin-bottom: 30px;
+}
+ .red {
+     color: rgb(255,0,0);
+}
+ #output p {
+     word-wrap: break-all;
+     overflow: auto;
+}
+ #linkOutput p {
+     word-wrap: break-all;
+     overflow: auto;
+}
+ #referralContent {
+    /* overflow-x: auto;
+    */
+}
+ #formTable {
+     overflow-x: auto;
+     margin-left: 40px;
+}
+ fieldset {
+    /* overflow-x: auto;
+    */
+     border: none;
+     margin-top: 0;
+     padding-top: 0;
+     margin-bottom: 20px;
+     margin-left: 20px;
+}
+ table form,input {
+     margin: 0;
+     padding: 0;
+}
+/* unvisited link */
+ a:link {
+     color: #26684d;
+}
+/* visited link */
+ a:visited {
+     color: #518670;
+}
+/* mouse over link */
+ a:hover {
+     color: #682641;
+}
+/* selected link */
+ a:active {
+     color: #4d2668;
+}
+/* phones */
+ @media only screen and (max-width: 600px) {
+     body {
+         margin: 10px 0 10px 0;
+         padding: 0;
+    }
+     #formTable, table, h2, fieldset {
+         margin-left: 0;
+         padding-left: 0;
+    }
+     header h1 {
+         margin: 10px;
+    }
+     p {
+         margin: 10px;
+    }
+     #wrapper {
+         border: none;
+         width:100%;
+         padding: 0;
+         margin: 0;
+         background: #d3e0db;
+    }
+     img {
+         max-width: 100%;
+         height: auto;
+         width: auto;
+    }
+     header img {
+         width: 50%;
+         height: auto;
+         display: block;
+    }
+}
+/* tablets */
+ @media only screen and (min-width: 600px) {
+     #wrapper {
+         width:90%;
+         border:4px solid #7ca494;
+         padding:20px;
+         margin:2.5em auto 20px auto;
+         background: #d3e0db;
+         border-radius: 10px;
+    }
+     #title {
+         width: 50%;
+         float: left;
+    }
+     #title h1, #title h2 {
+         float: left;
+    }
+     #title h1 {
+         font-size: 2.1em;
+    }
+     #title h2 {
+         font-size: 1.1em;
+    }
+     img {
+         max-width: 100%;
+         height: auto;
+         width: auto;
+    }
+     header img {
+         height: auto;
+         width: 40%;
+         float: right;
+    }
+}
+/* desktops */
+ @media only screen and (min-width: 768px) {
+     #wrapper {
+         max-width: 710px;
+         border:4px solid #7ca494;
+         padding:20px;
+         margin:2.5em auto 20px auto;
+         background: #d3e0db;
+         border-radius: 10px;
+    }
+     img {
+         max-width: 100%;
+         height: auto;
+         width: auto;
+    }
+     nav li {
+         float: left;
+    }
+     #title {
+         width: 50%;
+         float: left;
+    }
+     #title h1, #title h2 {
+         float: left;
+    }
+     #title h1 {
+         font-size: 2.8em;
+    }
+     #title h2 {
+         font-size: 1.6em;
+    }
+     header img {
+         height: auto;
+         width: 40%;
+         float: right;
+    }
+}
+ table, select, input {
+     font-family: arial, tahoma, sans-serif;
+}
